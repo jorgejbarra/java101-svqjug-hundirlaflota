@@ -1,6 +1,7 @@
-import org.junit.Test;
+package es.java101.svqjug.hundirlaflota;
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class BoardGeneratorTest {
 
@@ -14,10 +15,8 @@ public class BoardGeneratorTest {
         Board board = generator.generateNewBoard();
 
         //then
-        assertEquals(10,board.getSize());
+        Assert.assertEquals(10, board.getSize());
     }
-
-
 
 
 }

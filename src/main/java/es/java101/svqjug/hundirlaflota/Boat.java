@@ -1,3 +1,5 @@
+package es.java101.svqjug.hundirlaflota;
+
 public class Boat {
 
     private int x;

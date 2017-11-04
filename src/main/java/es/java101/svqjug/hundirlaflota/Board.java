@@ -1,4 +1,5 @@
-import java.util.Collection;
+package es.java101.svqjug.hundirlaflota;
+
 import java.util.LinkedList;
 import java.util.List;
 

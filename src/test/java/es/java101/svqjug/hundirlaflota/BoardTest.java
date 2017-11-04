@@ -1,6 +1,7 @@
-import org.junit.Test;
+package es.java101.svqjug.hundirlaflota;
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class BoardTest {
 
@@ -10,7 +11,7 @@ public class BoardTest {
         Board board = new Board(10);
 
         //then
-        assertEquals(0,board.getNumberOfBoat());
+        Assert.assertEquals(0, board.getNumberOfBoat());
     }
 
     @Test
@@ -22,7 +23,7 @@ public class BoardTest {
         board.addBoat(new Boat(1,1));
 
         //then
-        assertEquals(1,board.getNumberOfBoat());
+        Assert.assertEquals(1, board.getNumberOfBoat());
     }
 
     @Test
@@ -34,7 +35,7 @@ public class BoardTest {
         board.addBoat(new Boat(1,1));
 
         //then
-        assertEquals(false,board.isEmpty(1,1));
+        Assert.assertEquals(false, board.isEmpty(1, 1));
     }
 
 }
