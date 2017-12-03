@@ -1,11 +1,11 @@
 package es.java101.svqjug.hundirlaflota;
 
-public class Boat {
+public class Ship {
 
     private int x;
     private int y;
 
-    public Boat(int x, int y) {
+    public Ship(int x, int y) {
         this.x = x;
         this.y = y;
     }
