@@ -52,7 +52,7 @@ public class BoardTest {
         board.addShip(SAMPLE_SHIP);
 
         //then
-        assertThat(board.getNumberOfShipAlive()).isEqualTo(numberOfShipBeforeAdd);
+        assertThat(board.getNumberOfShip()).isEqualTo(numberOfShipBeforeAdd);
     }
 
     @Test
